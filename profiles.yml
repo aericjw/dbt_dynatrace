@@ -3,9 +3,9 @@ dynatrace:
   outputs:
     dev:
       type: postgres
-      host: aeric-dbt.cu74jnjiqssw.us-east-1.rds.amazonaws.com
+      host: <hostname-here>
       user: postgres
-      password: bsdoTzzCzqvfrxJ2g6FM
+      password: <password-here>
       port: 5432
       dbname: postgres # or database instead of dbname
       schema: dbt_dynatrace
